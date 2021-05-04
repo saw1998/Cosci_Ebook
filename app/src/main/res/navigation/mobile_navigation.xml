@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_all_books">
+
+    <fragment
+        android:id="@+id/nav_all_books"
+        android:name="com.example.myebook.ui.all_books.AllBooksFragment"
+        android:label="All Books"
+        tools:layout="@layout/fragment_all_book" />
+
+    <fragment
+        android:id="@+id/nav_add_book"
+        android:name="com.example.myebook.ui.add_book.AddBookFragment"
+        android:label="Add Book"
+        tools:layout="@layout/fragment_add_book" />
+
+    <fragment
+        android:id="@+id/nav_simulation"
+        android:name="com.example.myebook.ui.simulation.SimulationFragment"
+        android:label="@string/menu_simulation"
+        tools:layout="@layout/fragment_simulation" />
+    <activity
+        android:id="@+id/nav_setting"
+        android:name="com.example.myebook.authentication.SettingsActivity"
+        android:label="@string/menu_setting"
+        tools:layout="@layout/activity_settings" />
+    <fragment
+        android:id="@+id/nav_credit"
+        android:name="com.example.myebook.CreditFragment"
+        android:label="Credit"
+        tools:layout="@layout/fragment_credit" />
+</navigation>

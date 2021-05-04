@@ -1,0 +1,89 @@
+[class^="2dcanvas-"],
+[class*=" 2dcanvas-"] {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/ejs-2dcanvas.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+/* White icons with optional class, or on hover/active states of certain elements */
+
+.2dcanvas-white,
+.nav-tabs > .active > a > [class^="2dcanvas-"],
+.nav-tabs > .active > a > [class*=" 2dcanvas-"],
+.nav-pills > .active > a > [class^="2dcanvas-"],
+.nav-pills > .active > a > [class*=" 2dcanvas-"],
+.nav-list > .active > a > [class^="2dcanvas-"],
+.nav-list > .active > a > [class*=" 2dcanvas-"],
+.navbar-inverse .nav > .active > a > [class^="2dcanvas-"],
+.navbar-inverse .nav > .active > a > [class*=" 2dcanvas-"],
+.dropdown-menu > li > a:hover > [class^="2dcanvas-"],
+.dropdown-menu > li > a:hover > [class*=" 2dcanvas-"],
+.dropdown-menu > .active > a > [class^="2dcanvas-"],
+.dropdown-menu > .active > a > [class*=" 2dcanvas-"] {
+  background-image: url("../img/ejs-2dcanvas.png");
+}
+
+.2dcanvas-circle {
+  background-position: 0px	0px;
+}
+
+.2dcanvas-line {
+  background-position: -30px 0px;
+}
+
+.2dcanvas-arrow {
+  background-position: -60px 0px;
+}
+
+/* shapeset */
+[class^="2dShapeset-"],
+[class*=" 2dShapeset-"] {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-top: 1px;
+  *margin-right: .3em;
+  line-height: 14px;
+  vertical-align: text-top;
+  background-image: url("../img/2dShapeSet_canvas.png");
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+}
+
+/* White icons with optional class, or on hover/active states of certain elements */
+
+.Shapeset-white,
+.nav-tabs > .active > a > [class^="2dShapeset-"],
+.nav-tabs > .active > a > [class*=" 2dShapeset-"],
+.nav-pills > .active > a > [class^="2dShapeset-"],
+.nav-pills > .active > a > [class*=" 2dShapeset-"],
+.nav-list > .active > a > [class^="2dShapeset-"],
+.nav-list > .active > a > [class*=" 2dShapeset-"],
+.navbar-inverse .nav > .active > a > [class^="2dShapeset-"],
+.navbar-inverse .nav > .active > a > [class*=" 2dShapeset-"],
+.dropdown-menu > li > a:hover > [class^="2dShapeset-"],
+.dropdown-menu > li > a:hover > [class*=" 2dShapeset-"],
+.dropdown-menu > .active > a > [class^="2dShapeset-"],
+.dropdown-menu > .active > a > [class*=" 2dShapeset-"] {
+  background-image: url("../img/2dShapeSet_canvas.png");
+}
+
+.2dShapeset-circle {
+  background-position: 0px	0px;
+}
+
+.2dShapeset-line {
+  background-position: -30px 0px;
+}
+
+.2dShapeset-arrow {
+  background-position: -60px 0px;
+}
+

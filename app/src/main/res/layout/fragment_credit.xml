@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CreditFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Credit of this Ebook goes to:"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColorHint="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prof. Kaushal Kumar Bhagat"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/colorBlack"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Indian Institute of Technology, Kharagpur"
+        android:textSize="19sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Prof. Liu"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/colorBlack"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="National Central University, Taiwan"
+        android:textSize="19sp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mr. Sachin Azad Saw"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="normal"
+        android:textColorHint="@color/colorBlack"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Indian Institute of Technology, Kharagpur"
+        android:textSize="19sp"
+        android:layout_marginLeft="10dp"/>
+
+
+</LinearLayout>

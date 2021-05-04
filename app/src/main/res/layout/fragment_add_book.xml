@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.add_book.AddBookFragment">
+
+
+    <Button
+        android:id="@+id/btn_book_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book Cover"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/i_wonder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Wonder..."
+        android:textAlignment="center"
+        android:drawableStart="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/i_plan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="So, I plan to..."
+        android:textAlignment="center"
+        android:drawableStart="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/experiment_set"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulation and Result"
+        android:textAlignment="center"
+        android:drawableStart="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/i_found"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Found..."
+        android:textAlignment="center"
+        android:drawableStart="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <Button
+        android:id="@+id/i_think"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I Think..."
+        android:textAlignment="center"
+        android:drawableStart="@drawable/button"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@drawable/button"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:padding="6dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"/>
+
+
+
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/button"
+        android:drawableStart="@drawable/button"
+        android:padding="6dp"
+        android:text="POST"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

@@ -1,4 +1,4 @@
-package com.example.cosic_ebook;
+package com.example.myebook;
 
 import org.junit.Test;
 
